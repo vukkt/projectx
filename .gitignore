@@ -5,6 +5,16 @@
 # Log file
 *.log
 
+# DS_Store
+.DS_Store
+
+# Maven Wrapper directory
+.mvn/wrapper
+
+# Maven Wrapper
+mvnw
+mvnw.cmd
+
 # BlueJ files
 *.ctxt
 
