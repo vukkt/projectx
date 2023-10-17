@@ -1,6 +1,7 @@
 package com.projectx.services;
 
 import com.projectx.models.User;
+import com.projectx.models.UserProfile;
 import com.projectx.repositories.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -73,22 +74,16 @@ public class UserServiceImpl implements UserService{
 
     @Override
     public List<User> searchUsers(String keyword) {
-        // Implement search logic based on your requirements
-        // Example: return userRepository.findByFirstNameContainingOrLastNameContaining(keyword, keyword);
         return null;
     }
 
     @Override
     public User updateProfile(Long id, UserProfile userProfile) {
-        // Implement profile update logic based on your requirements
-        // Example: Fetch the user by ID, update profile fields, and save
         return null;
     }
 
     @Override
     public boolean changePassword(Long id, String currentPassword, String newPassword) {
-        // Implement password change logic based on your requirements
-        // Example: Fetch the user by ID, verify current password, update password, and save
         return false;
     }
 
