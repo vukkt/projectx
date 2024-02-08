@@ -1,7 +1,7 @@
-package com.projectx.controllers;
+package com.projectx.controller;
 
-import com.projectx.models.User;
-import com.projectx.services.UserService;
+import com.projectx.model.User;
+import com.projectx.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

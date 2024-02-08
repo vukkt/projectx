@@ -1,8 +1,8 @@
-package com.projectx.services;
+package com.projectx.service;
 
-import com.projectx.models.User;
-import com.projectx.models.UserProfile;
-import com.projectx.repositories.UserRepository;
+import com.projectx.model.User;
+import com.projectx.model.UserProfile;
+import com.projectx.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,7 +15,7 @@ import java.util.Optional;
  * @project projectx
  */
 @Service
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserRepository userRepository;

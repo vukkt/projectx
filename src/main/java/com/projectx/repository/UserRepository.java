@@ -1,6 +1,6 @@
-package com.projectx.repositories;
+package com.projectx.repository;
 
-import com.projectx.models.User;
+import com.projectx.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -13,7 +13,7 @@ import java.util.Optional;
  * @project projectx
  */
 @Repository
-public interface UserRepository extends JpaRepository<User,Long> {
+public interface UserRepository extends JpaRepository<User, Long> {
 
     // Create (Save) a User
     User save(User user);

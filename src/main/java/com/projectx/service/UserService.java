@@ -1,7 +1,7 @@
-package com.projectx.services;
+package com.projectx.service;
 
-import com.projectx.models.User;
-import com.projectx.models.UserProfile;
+import com.projectx.model.User;
+import com.projectx.model.UserProfile;
 
 import java.util.List;
 

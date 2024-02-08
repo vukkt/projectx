@@ -1,4 +1,4 @@
-package com.projectx.models;
+package com.projectx.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
